@@ -360,9 +360,9 @@ html {
 }
 
 [data-section-theme="dark"] {
-    --text-color: white; /* Redefine la variable para el color del texto */
-    --section-title-color: white; /* Redefine la variable para el color del título */
-    background: var(--color-black); /* Usa la variable de color negro para el fondo */
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background: var(--color-black);
 }
 
 body {
